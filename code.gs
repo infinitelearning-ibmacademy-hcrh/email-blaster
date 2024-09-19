@@ -5,7 +5,7 @@ const STATUS_COL = "Email Track Status";
 const SENDER_NAME_COL = "Sender Name";
 
 //API_URL dari deployment Track.gs
-const TRACK_API_URL = "https://script.google.com/macros/s/AKfycbx2E8sgeOoEDxtvZNFTkwI0jLlCpXQkENP3wxit8IHozISEpoqtyTQUM7STjpr9_uFY/exec";
+const TRACK_API_URL = "https://script.google.com/macros/saaaaxxxxsaaaassssbbgyqggbasjdha/exec";
 
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
