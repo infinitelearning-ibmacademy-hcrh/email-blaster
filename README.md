@@ -281,8 +281,7 @@ function escapeData_(str) {
     - Ubah variabel **RECIPIENT_COL**, **EMAIL_SENT_COL**, **STATUS_COL**, dan **SENDER_NAME_COL** sesuai dengan tabel di google sheets kita. <br>
     Misal di sheets kita seperti ini:
     ![image](https://github.com/user-attachments/assets/5f03d7d7-9229-4ec9-ba01-80e90c138442)
-    <br>
-    Maka ubah variabelnya menjadi:<br>
+    Maka ubah variabelnya menjadi:
     ```
     //Nama-Nama Kolom 
     const RECIPIENT_COL = "Email Peserta";
@@ -290,6 +289,7 @@ function escapeData_(str) {
     const STATUS_COL = "Email Track Status";
     const SENDER_NAME_COL = "Sender Name";
     ```
+
 
 16. Jika sudah, maka save code nya. Kembali ke google sheets, lalu **refresh page** nya. Seharusnya akan muncul menu baru yaitu **Mail Merge by OMI**.
 ![image](https://github.com/user-attachments/assets/241d0624-21b6-4999-9018-33862216180a)
